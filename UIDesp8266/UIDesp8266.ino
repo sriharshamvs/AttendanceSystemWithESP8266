@@ -13,8 +13,8 @@ MFRC522 mfrc522(SS_PIN, RST_PIN);   // Create MFRC522 instance.
 int statuss = 0;
 int out = 0;
 
-const char *ssid = "Startrek";  //ENTER YOUR WIFI SETTINGS
-const char *password = "Face fade12#";
+const char *ssid = "*********";  //ENTER YOUR WIFI SETTINGS
+const char *password = "*******";
 const char *host = "192.168.0.109";  
 
 String content= "";
